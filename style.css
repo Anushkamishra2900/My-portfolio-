@@ -1,0 +1,254 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{ 
+    background-color: #0c0d12;
+    color: white;
+}
+nav{
+    background-color: #0c0d12;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    margin-inline: 22px;
+    font-size: 22px;
+}
+ul li a:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.logo{
+    font-size: 26px;
+}
+.main{
+    margin-top: 111px;
+    display: flex;
+    justify-content: center;
+}
+.main img{
+    width: 400px;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+.main h1{
+    font-size: 66px;
+}
+.main p{
+    font-size: 18px;
+    margin-top: 22px;
+}
+.main button{
+    width: 140px;
+    height: 40px;
+    background-color: aqua;
+    cursor: pointer;
+    border: none;
+    margin-top: 25px;
+    border-radius: 25px;
+}
+.main h3{
+    font-size: 22px;
+}
+.mainText{
+    margin-top: 54px;
+}
+.head{
+    text-align: center;
+    padding: 88px;
+}
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+    justify-content: center;
+    padding: 22px;
+}
+.about img{
+    width: 300px;
+    height: 310px;
+    border-radius: 50%;
+    border: 6px solid aqua;
+}
+.about p{
+    margin-top: 22px;
+    font-size: 20px;
+}
+.about h1{
+    font-size: 53px;
+}
+.btns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.btns button{
+    padding: 11px;
+    border: none;
+    margin-inline: 11px;
+    background-color: #fa4362;
+    font-size: 20px;
+    color: white;
+    border-radius: 2px;
+    margin-top: 11px;
+}
+.service{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.serviceCard{
+    width: 300px;
+    padding: 22px;
+    background-color: #6a6868;
+    color: white;
+    margin-inline: 20px;
+    margin-top: 22px;
+    text-align: center;
+}
+.serviceCard i{
+    font-size: 83px;
+}
+.serviceCard p{
+    margin-top: 22px;
+}
+.serviceCard h2{
+    margin-top: 22px;
+}
+.serviceCard button{
+    margin-top: 22px;
+    width: 100px;
+    height: 33px;
+    border: none;
+    border-radius: 17px;
+    background-color: #e18090;
+    color: white;
+}
+.work{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.workCard{
+    text-align: center;
+    margin-top: 44px;
+}
+.workCard img{
+    width: 600px;
+    border-radius: 5px;
+    margin-inline: 22px;
+}
+.workCard a{
+    padding: 5px 22px;
+    background-color:  #fa4362;
+    border-radius: 17px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 11px;
+}
+.contact{
+    width: 400px;
+    margin: auto;
+    padding: 22px;
+    background-color: #6a6868;
+    text-align: center;
+}
+.contact input{
+    width: 90%;
+    padding: 11px;
+    height: 12px;
+    margin-top: 22px;
+    font-size: 18px;
+}
+.contact textarea{
+    width: 90%;
+    font-size: 20px;
+    margin-top: 22px;
+}
+.contact button{
+    width: 100px;
+    height: 33px;
+    background-color:#fa4362;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    border-radius: 17px;
+    font-size: 19px;
+}
+.icons{
+    text-align: center;
+    font-size: 52px;
+    margin-top: 52px;
+}
+.footer{
+    padding: 33px;
+}
+.text{
+    text-align: center;
+}
+.text p{
+    margin-top: 11px;
+    font-size: 22px;
+}
+#bar{
+    display: none;
+    font-size: 26px;
+}
+
+@media screen and (max-width:1100px){
+    .main{
+        text-align: center;
+        display: block;
+    }
+}
+@media screen and (max-width:670px){
+    .workCard img{
+        width: 80%;
+    }
+    .main img{
+        width: 90%;
+    }
+    .main h1{
+        font-size: 34px;
+    }
+    .main p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:500px){
+    .content{
+        width: 80%;
+    }
+    .about{
+        text-align: center;
+    }
+    .about img{
+        width: 90%;
+        height: 200px;
+    }
+    .about p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:760px){
+   ul{
+    display: none;
+   }
+   #bar{
+    display: block;
+   }
+}
